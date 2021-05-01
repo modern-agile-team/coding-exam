@@ -1,4 +1,5 @@
-def leptop_brand(number):
+def leptop_brand(number):           #주어진 숫자들을 알맞은 브랜드에 추가하는 함수
+
     number = sorted(number)         #정렬
 
     samsung = []                    #각 브랜드별로 리스트 생성
@@ -29,6 +30,6 @@ def leptop_brand(number):
             "한성":hansung, "레노버":lenover,
             "엘지":LG, "아수스":asus, "기타":others}
     return brand
-    
+
 number = map(int,input("공백을 구분으로 노트북 번호 입력 : ").split())
 print(leptop_brand(number))
