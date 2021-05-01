@@ -12,5 +12,5 @@ for i in range(101):
         print("오류0")
 
 
-def average(list):
-    return (sum(list) / len(list))
+def average(a):
+    return (sum(a) / len(a))
