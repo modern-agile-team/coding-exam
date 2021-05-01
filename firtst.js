@@ -10,3 +10,4 @@ for(let i =0; i<score.length; i++) {
 var avrCeil = Math.ceil(avr);
  console.log(avrCeil);
 
+
