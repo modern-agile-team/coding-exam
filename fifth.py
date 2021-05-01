@@ -1,4 +1,4 @@
-def leptop_brand(number):           #주어진 숫자들을 알맞은 브랜드에 추가하는 함수
+def leptop_brand(number):           #입력된 숫자들을 알맞은 브랜드에 추가하는 함수
 
     number = sorted(number)         #정렬
 
