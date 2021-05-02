@@ -1,4 +1,4 @@
-def leptop_brand(number):           #입력된 숫자들을 알맞은 브랜드에 추가하는 함수
+def laptop_brand(number):           #입력된 숫자들을 알맞은 브랜드에 추가하는 함수
 
     number = sorted(number)         #정렬
 
@@ -32,4 +32,4 @@ def leptop_brand(number):           #입력된 숫자들을 알맞은 브랜드�
     return brand
 
 number = map(int,input("공백을 구분으로 노트북 번호 입력 : ").split())
-print(leptop_brand(number))
+print(laptop_brand(number))

@@ -1,6 +1,6 @@
 def user_data(n):                                                   #유저의 데이터를 성별과 이름으로 나누어서 저장하는 함수 생성
+    
     data_list = []
-
     for i in range(n):                                              #입력한 숫자만큼 입력을 받도록 하는 반복문.
         data = input("공백을 구분으로 이름과 성별을 입력하세요 : ")     
         data_list.append(data)                                      #입력받은 데이터를 리스트에 추가한다.
