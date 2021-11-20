@@ -6,7 +6,7 @@ function solution() {
   // 풀이
   const scores = input[0].split(", ");
 
-  const total = scores.reduce((acc, el) => {
+  const sum = scores.reduce((acc, el) => {
     acc += Number(el);
     return acc;
   }, 0);
