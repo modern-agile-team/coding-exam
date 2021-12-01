@@ -1,0 +1,3 @@
+pattern = input()
+string = input()
+
