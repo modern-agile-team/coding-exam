@@ -1,3 +1,0 @@
-pattern = input()
-string = input()
-
